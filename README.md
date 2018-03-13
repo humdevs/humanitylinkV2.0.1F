@@ -8,7 +8,7 @@ Bitcointalk ANN:  https://bitcointalk.org/index.php?topic=3014641
 
 Explorer:  http://192.250.236.182:3001/
 
-Windows wallet here:  http://s000.tinyupload.com/index.php?file_id=03623441708327089853
+Windows wallet here:  Coming soon..
 
 
 Intro
@@ -102,7 +102,7 @@ How will the POS rate be calculated to maintain even distribution:
  
  
 -virustotal link
-https://www.virustotal.com/#/file/4785a8fd2aed979f7d5683eb09bdff5a90a2f4bb5dc7cb76960ef44647710134/detection
+https://www.virustotal.com/#/file/872ad1514b52983746caac8576143a95b228a47a6957b1020b8667397acf4e6f/detection
 
 -------------------
 
