@@ -35,19 +35,7 @@ Specifications
 
 -Total Coins: 8,000,000,000  //Human Population Estimate by 2025
 
-
--POW Total Blocks: 2,500,000
-
--POW Reward: 10,000 coins - 5000 coins 2nd Year - 2500 coins 3rd Year - 1250 coins 4th Year
-
--POW Spacing: 2 Minutes
-
--POW Retarget: 4 Minutes - //Average Hashrate of 2 last blocks divided by 2
-
--POW Halving: Every 250,000 blocks - //Aprox. 330 days
-
-
--POS Activation: Block 1,000,000 - //Aprox. August 2022
+-POS Activation: Block 2600
 
 -POS Reward: 12% Annual - 1% Monthly
 
@@ -56,6 +44,7 @@ Specifications
 -Pos Maximum Stake Age: Unlimited
 
 
+------------------------------------------
 -Transaction Network Speed: ~1 Second
 
 -Transaction Network Confirmation: ~2 Minutes
@@ -168,33 +157,53 @@ C:/users/YOURUSERNAME/AppData/Roaming/humanitylink. Usually AppData is hidden so
 // paste following in Terminal
 
 sudo apt-get update
+
 sudo apt-get install git curl tar unzip software-properties-common -y
+
 sudo add-apt-repository ppa:bitcoin/bitcoin
+
 sudo apt-get update
 
 
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev -y
+
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev -y
+
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 git clone https://github.com/humdevs/humanitylink.git
+
 cd humanitylink/src/leveldb
+
 chmod 775 build_detect_platform 
+
 sudo make libleveldb.a libmemenv.a
 
-sudo chmod -R 777 ~/humanitylink/
-cd humanitylink/src
-mkdir obj
-make -f makefile.unix USE_UPNP=1
+mkdir -p obj/zerocoin
 
 sudo chmod -R 777 ~/humanitylink/
-cd /humanitylink
-qmake
+
+cd humanitylink/src
+
+mkdir obj
+
+make -f makefile.unix USE_UPNP=1
+
+
 sudo chmod -R 777 ~/humanitylink/
+
+cd /humanitylink
+
+qmake
+
+sudo chmod -R 777 ~/humanitylink/
+
 make
 
 
+
 //For vps with less than 1Gb RAM use this make command instead;
+
 make -f makefile.unix USE_UPNP=1 CXXFLAGS="--param ggc-min-expand=1 --param ggc-min-heapsize=32768"
 
 
