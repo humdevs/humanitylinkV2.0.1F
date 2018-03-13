@@ -67,6 +67,15 @@ sudo apt-get install libdb++-dev
 sudo apt-get install libboost-all-dev
 sudo apt-get install libqrencode-dev
 
+/src/leveldb
+chmod 775 build_detect_platform 
+sudo make libleveldb.a libmemenv.a
+
+mkdir -p obj/zerocoin
+sudo chmod -R 777 ~/humanitylink/
+make -f makefile.unix
+
+
 If using Boost 1.37, append -mt to the boost libraries in the makefile.
 
 
