@@ -1,8 +1,11 @@
-HumanityLink 0.8.2F
+[![Build Status](https://travis-ci.org/wagerr/wagerr.svg?branch=master)](https://travis-ci.org/wagerr/wagerr)
+[![Snap Status](https://build.snapcraft.io/badge/wagerr/wagerr.svg)](https://build.snapcraft.io/user/wagerr/wagerr)
+[![GitHub license](https://img.shields.io/github/license/wagerr/wagerr.svg)](https://github.com/wagerr/wagerr/blob/master/COPYING)
+
+
+HumanityLink 2.0.1F
 ====================
 Copyright (c) 2018-2028 HumanityLink Developers
-
-Pool#1:  http://192.243.100.105:3757/
 
 Bitcointalk ANN:  https://bitcointalk.org/index.php?topic=3014641
 
