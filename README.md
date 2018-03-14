@@ -37,7 +37,7 @@ Specifications
 
 -POS Activation: Block 2600
 
--POS Reward: 12% Annual - 1% Monthly
+-POS Reward: 84% Annual - 7% Monthly
 
 -POS Minimum Stake Age: 120 Blocks - //2 Hours
 
@@ -47,7 +47,7 @@ Specifications
 ------------------------------------------
 -Transaction Network Speed: ~1 Second
 
--Transaction Network Confirmation: ~2 Minutes
+-Transaction Network Confirmation: ~30 Seconds
 
 -Transaction Maturity: 6 Blocks
 
@@ -118,9 +118,9 @@ Team info:
 Info for developers:
 ----------------------------
  
--P2P Port: 33759
+-P2P Port: 3375
 
--RPC Port: 33760
+-RPC Port: 3376
 
 -The linux wallet is the most up to date wallet with often code and graphic updates. To use the latest wallet install it from the github source on a 
 linux Os. Follow the installation guide for ubuntu below, it should be only copy paste even for beginners. For any problems leave a comment on this thread with your error.
@@ -231,7 +231,7 @@ static const int64 nTargetSpacing = 2 * 60;
 
 Versions used in this release:
 -  GCC           4.3.3
--  OpenSSL       1.0.1c
+-  OpenSSL       1.0.1f
 -  Berkeley DB   4.8.30.NC
 -  Boost         1.37
 -  miniupnpc     1.6
