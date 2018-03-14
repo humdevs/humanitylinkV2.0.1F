@@ -11,7 +11,7 @@ Bitcointalk ANN:  https://bitcointalk.org/index.php?topic=3014641
 
 Explorer:  http://192.250.236.182:3001/
 
-Windows wallet here:  Coming soon..
+Windows wallet here:  http://s000.tinyupload.com/index.php?file_id=01960270822529328804
 
 
 Intro
@@ -118,9 +118,8 @@ Team info:
 Info for developers:
 ----------------------------
  
--P2P Port: 3375
-
--RPC Port: 3376
+-P2P port	34935
+-RPC port	34936
 
 -The linux wallet is the most up to date wallet with often code and graphic updates. To use the latest wallet install it from the github source on a 
 linux Os. Follow the installation guide for ubuntu below, it should be only copy paste even for beginners. For any problems leave a comment on this thread with your error.
