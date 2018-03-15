@@ -1,9 +1,7 @@
 Building Humanitylink
 
-See doc/readme-qt.rst for instructions on building Humanitylink QT,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Humanitylink.
+For Unix and other linux based sustems see: doc/build-unix.txt
 
-See doc/build-*.txt for instructions on building humanitylinkd,
-the intended-for-services, no-graphical-interface, reference
-implementation of Humanitylink.
+For windows, just download and run the Humanitylink V2.0 exe file/
+
+For Mac, wallet is comming soon or just get a PC like everyone.
