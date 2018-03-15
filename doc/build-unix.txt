@@ -10,14 +10,59 @@ software written by Thomas Bernard.
 UNIX BUILD NOTES
 ================
 
-To Build
---------
 
-cd src/
-make -f makefile.unix            # Headless humanitylink
+Enjoy!
+-----
 
-See readme-qt.rst for instructions on building Humanitylink QT,
-the graphical humanitylink.
+sudo apt-get update
+
+sudo apt-get install git curl tar unzip software-properties-common -y
+
+sudo add-apt-repository ppa:bitcoin/bitcoin
+
+sudo apt-get update
+
+
+sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev -y
+
+sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev -y
+
+
+git clone https://github.com/humdevs/humanitylinkV2.0.1F.git
+
+cd humanitylink/src/leveldb
+
+chmod 775 build_detect_platform 
+
+sudo make libleveldb.a libmemenv.a
+
+mkdir -p obj/zerocoin
+
+sudo chmod -R 777 ~/humanitylink/
+
+cd humanitylink/src
+
+mkdir obj
+
+make -f makefile.unix USE_UPNP=1
+
+
+
+Make Graphical qt wallet:
+
+
+sudo chmod -R 777 ~/humanitylink/
+
+cd /humanitylink
+
+qmake
+
+sudo chmod -R 777 ~/humanitylink/
+
+make
+
+
+
 
 Dependencies
 ------------
