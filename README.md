@@ -211,18 +211,21 @@ Block reward and premine code of 0.625%:
 int64 GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 10000 * COIN;
-
-            if(nHeight == 1)
+            if(nBestHeight == 0)
             {
-            nSubsidy = 50505051 * COIN;
+            nSubsidy = 62331429 * COIN;
             }
 
-    // Subsidy is cut in half every 250000 blocks
-    nSubsidy >>= (nHeight / Params().SubsidyHalvingInterval());
+    if (fDebug && GetBoolArg("-printcreation"))
+        printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
 
     return nSubsidy + nFees;
 }
 
+// miner's coin stake reward based on coin age spent (coin-days)
+int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
+{
+    int64_t nSubsidy = nCoinAge * COIN_YEAR_REWARD * 33 / (365 * 33 + 8);
 static const int64 nTargetTimespan = 4 * 60;
 static const int64 nTargetSpacing = 2 * 60;
 
