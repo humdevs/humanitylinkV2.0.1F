@@ -13,6 +13,9 @@ Explorer:  http://192.250.236.182:3001/
 
 Windows wallet here:  http://s000.tinyupload.com/index.php?file_id=01960270822529328804
 
+virustotal link
+https://www.virustotal.com/#/file/872ad1514b52983746caac8576143a95b228a47a6957b1020b8667397acf4e6f/detection
+
 
 Intro
 ---------------------
@@ -92,9 +95,6 @@ How will the POS rate be calculated to maintain even distribution:
  
  b-n^2=death rate
  
- 
--virustotal link
-https://www.virustotal.com/#/file/872ad1514b52983746caac8576143a95b228a47a6957b1020b8667397acf4e6f/detection
 
 -------------------
 
@@ -170,7 +170,7 @@ sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev lib
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-git clone https://github.com/humdevs/humanitylink.git
+git clone https://github.com/humdevs/humanitylinkV2.0.1F.git
 
 cd humanitylink/src/leveldb
 
