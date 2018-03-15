@@ -22,7 +22,6 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 
 sudo apt-get update
 
-
 sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev -y
 
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev -y
@@ -48,8 +47,9 @@ make -f makefile.unix USE_UPNP=1
 
 
 
-Make Graphical qt wallet:
 
+
+To build the Graphical qt wallet:
 
 sudo chmod -R 777 ~/humanitylink/
 
