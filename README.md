@@ -172,8 +172,6 @@ sudo apt-get install build-essential libssl-dev libdb-dev libdb++-dev libboost-a
 
 sudo apt-get install libdb-dev libdb++-dev libboost-all-dev libminiupnpc-dev libminiupnpc-dev -y
 
-sudo apt-get install libdb4.8-dev libdb4.8++-dev
-
 git clone https://github.com/humdevs/humanitylinkV2.0.1F.git
 
 cd humanitylink/src/leveldb
