@@ -123,6 +123,7 @@ Info for developers:
 ----------------------------
  
 -P2P port	34935
+
 -RPC port	34936
 
 -The linux wallet is the most up to date wallet with often code and graphic updates. To use the latest wallet install it from the github source on a 
