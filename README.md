@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/wagerr/wagerr.svg?branch=master)](https://travis-ci.org/wagerr/wagerr)
-[![Snap Status](https://build.snapcraft.io/badge/wagerr/wagerr.svg)](https://build.snapcraft.io/user/wagerr/wagerr)
 [![GitHub license](https://img.shields.io/github/license/wagerr/wagerr.svg)](https://github.com/wagerr/wagerr/blob/master/COPYING)
 
 
