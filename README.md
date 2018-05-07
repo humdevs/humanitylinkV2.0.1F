@@ -4,7 +4,7 @@
 
 HumanityLink 2.0.1F
 ====================
-Copyright (c) 2018-2028 HumanityLink Developers
+Copyright (c) 2018 HumanityLink Developers
 
 Bitcointalk ANN:  https://bitcointalk.org/index.php?topic=3014641
 
