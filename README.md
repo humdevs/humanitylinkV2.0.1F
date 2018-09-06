@@ -12,9 +12,7 @@ Explorer:  http://192.250.236.182:3001/
 
 Explorer 2: http://192.243.100.105:3001/
 
-Windows wallet here:  http://s000.tinyupload.com/index.php?file_id=01960270822529328804
-
-Bootstrap for fast Sync: http://s000.tinyupload.com/index.php?file_id=00084427405929827728
+Windows wallet here:  https://humanitylink.group/HumanityLinkV2.0.1F-qt-windows.zip
 
 virustotal link
 https://www.virustotal.com/#/file/872ad1514b52983746caac8576143a95b228a47a6957b1020b8667397acf4e6f/detection
